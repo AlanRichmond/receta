@@ -75,6 +75,8 @@ class Receta:
         continuar = True
         while continuar:
             os.system("cls")
+            print("----- BIENVENIDO -----\n")
+
             print(f"""     {self.nombre}
 {self.OPC_AGREGAR_INGREDIENTES}) Agregar ingredientes
 {self.OPC_CONSULTAR_INGREDIENTES}) Consultar ingredientes
